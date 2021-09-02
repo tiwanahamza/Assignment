@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Project</title>
+    <style type="text/css">
+        body{
+            text-align: center;
+            background-color: lightslategrey;
+            font-family: Ink Free;
+        }
+        button{
+            background-color: steelblue;
+            color: black;
+            text-decoration: none;
+            width: 150px;
+            height: 40px;
+            border-radius: 10%;
+            font-family: "Copperplate Gothic Light";
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h2>Enter numbers as comma seperated integers :</h2>
+    <p><input type="text" id="userinput"/>
+    <br><br>
+    <button onclick="largestNumber()">Largest Number</button> 
+    <br><br>
+    <button onclick="smallestNumber()">Smallest Number</button> 
+    <br><br>
+    <button onclick="sortAscending()">Sort Ascending Order</button> 
+    <br><br>
+    <button onclick="sortDescending()">Sort Descending Order</button> 
+    <br><br>
+    <button onclick="addNumbers()">Add Numbers</button> 
+    <br><br>
+    <button onclick="oddNumbers()">Odd Numbers</button> 
+    <br><br>
+    <button onclick="evenNumbers()">Even Numbers</button> 
+    <br><br>
+    <button onclick="avrgOfArray()">Average</button> 
+    <div>
+        <h2 id="result"></h2>
+    </div>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
